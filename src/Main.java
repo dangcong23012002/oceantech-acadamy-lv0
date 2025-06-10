@@ -1,8 +1,12 @@
-import services.StudentManager;
+import controller.StudentController;
 
 public class Main {
     public static void main(String[] args) {
-        StudentManager sm = new StudentManager();
-        sm.addStudent();
+        StudentController controller = new StudentController();
+        controller.addStudent();
+        controller.searchById();
+        while (true) {
+
+        }
     }
 }
